@@ -1,0 +1,7 @@
+node_modules
+dist
+coverage
+src/modules/firebase/fireBaseConfig.ts
+.env.firebase
+.env.prod
+.env

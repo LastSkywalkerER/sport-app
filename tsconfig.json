@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "dist",
+    "target": "es5",
+    "lib": ["es6", "dom", "DOM.Iterable", "ESNext"],
+    "allowJs": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "rootDir": "src",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "jsx": "react",
+    "paths": {
+      "@styles/*": ["src/shared/styles/*"],
+      "@modules/*": ["src/modules/*"],
+      "@components/*": ["src/shared/components/*"],
+      "@assets/*": ["src/assets/*"],
+      "@core/*": ["src/shared/core/*"],
+      "images/*": ["src/static/*"],
+      // "fonts/*": ["src/assets/fonts/*"]
+    },
+  },
+  "include": [
+    "src",
+    "index.d.ts",
+    "index.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "jest",
+  ],
+  "types": [
+    "typePatches"
+  ]
+}
